@@ -1,0 +1,11 @@
+* {font-family: Roboto, sans-serif;}
+
+ul {list-style: none;}
+
+header {
+  height: 50px;
+
+  background: #212121;
+}
+
+.main-nav {margin: 0 70px;}
