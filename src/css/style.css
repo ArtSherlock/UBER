@@ -1,11 +1,54 @@
 * {font-family: Roboto, sans-serif;}
 
-ul {list-style: none;}
+ul {list-style-type: none;}
 
-header {
+img {max-width: 100%;}
+
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+header {color: #fff;}
+
+.main-nav {
   height: 50px;
 
   background: #212121;
 }
 
-.main-nav {margin: 0 70px;}
+.menu {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 13px 70px;
+  margin: 0;
+}
+
+.menu .menu-link {
+  font: 300 15px/15px Roboto, sans-serif;
+  color: #fff;
+}
+
+.menu .menu-item:not(:last-child) {
+  border-right: 2px dotted black;
+  padding-right: 30px;
+}
+
+/* SUBHEADER */
+
+.subheader {
+  height: 87px;
+
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader-logo {
+  display: block;
+  margin-top: 16px;
+}
+
+.subheader-description {
+  font: 100 13px/1 Roboto, sans-serif;
+
+  margin-top: 6px;
+}
+
